@@ -1,6 +1,10 @@
 function helpFunction(){
-    console.log("----------List of Commands---------\n 1) node main.js tree <pathname> \n 2) node main.js organize <pathname> \n 3) node main.js help");
+    console.log(`List of all commands
+    1. node main.js tree <pathName>
+    2. node main.js organize <pathName>
+    3. node main.js help`);
 }
+
 module.exports={
-    help:helpFunction
+    helpFn:helpFunction
 };

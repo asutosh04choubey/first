@@ -8,7 +8,7 @@ let path=inputArr[1];
 
 switch(command){
     case "help":
-        helpO.help();
+        helpO.helpFn();
         break;
     case "tree":
         treeO.treeFn(path);
